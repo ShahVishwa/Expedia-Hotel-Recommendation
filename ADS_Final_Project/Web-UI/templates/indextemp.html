@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+		 <head>
+		 <title>Home</title>
+		 <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+		 <link rel="icon" href="/static/images/favicon.ico">
+		 <link rel="shortcut icon" href="/static/images/favicon.ico" />
+             
+          <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+          <script src="/static/js/jquery.min.js"></script>
+          <script src="/static/js/bootstrap.min.js"></script>
+        
+             <style>
+                 .table{
+                     font-size: 10px;
+                 }
+             </style>
+		 </head>
+        <body>
+        
+<div class="form-block">
+    <div class="row">
+        <div class="col-lg-6">
+          <div class="form-group">
+            <label for="from">Going to</label>
+            <input type="number" class="form-control" id="from">
+          </div>
+            </div>
+           
+        </div>
+  
+    <div class="row">
+        <div class="col-lg-3">
+          <div class="form-group">
+            <label for="depart">Check-in:</label>
+            <input type="text" class="form-control" id="depart">
+          </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="form-group">
+                <label for="return">Check-out :</label>
+                <input type="text" class="form-control" id="return">
+              </div>
+            </div>
+    </div>
+    <div class="row">
+            <div class="col-lg-2">
+              <div class="form-group">
+                <label for="rooms">Rooms</label>
+                <input type="number" class="form-control" id="rooms">
+              </div>
+            </div>
+    </div>
+    <div class="row">
+            <div class="col-lg-2">
+              <div class="form-group">
+                <label for="adult">Adults(18+)</label>
+                <input type="number" class="form-control" id="adult">
+              </div>
+            </div>
+    </div>
+    <div class="row">
+            <div class="col-lg-2">
+              <div class="form-group">
+                <label for="child">Children(0-17)</label>
+                <input type="number" class="form-control" id="child">
+              </div>
+            </div>
+    </div>
+    <button type="submit" id="btn" class="btn btn-primary">Search</button>
+    </div>
+        
+    <div id="temp">
+        
+    </div>
+           
+ <script   src="https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.min.js"></script>           
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#btn").click(function() {
+          var param1Val = $("#depart").val(),
+            param2Val = $("#return").val(),
+            param3Val = $("#adult").val(),
+            param4Val = $("#child").val(),
+            param5Val = $("#rooms").val(),
+            param6Val = $("#from").val();
+
+          if (param3Val == '' && param4Val == '' && param5Val == ''&& param6Val == '') {
+            alert("Please fill out the form");
+          }
+
+          $.post('/ml', {
+            param1: param1Val,
+            param2: param2Val,
+            param3: param3Val,
+            param4: param4Val,
+            param5: param5Val,
+            param6: param6Val
+          }).done(function(responseData) {
+            // make use of the retruned data!
+              var dataObj = JSON.parse(responseData);
+              console.log(dataObj);
+             /* var result = dataObj.Results.output1.value.Values[0][10];
+              var result1 = dataObj.Results.output1.value.Values[0][1];*/
+              $("#temp").html(responseData);
+              /*$("#result1").html(result1);*/
+          });
+        });
+      });
+    </script>
+<!--
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("depart").datepicker({
+                dateFormat: "mm/dd/yyyy" 'at' "HH:mm:ss"   
+          });
+          $("return").datepicker({
+                dateFormat: "mm/dd/yyyy" at' "HH:mm:ss"  
+          });
+        });
+            
+    </script>
+-->
+    </body>
+</html>

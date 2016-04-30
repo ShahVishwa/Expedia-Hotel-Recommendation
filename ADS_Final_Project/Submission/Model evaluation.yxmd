@@ -1,0 +1,1439 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.0">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\vanwu\Desktop\DJ Score.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DJ Score.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="site_name" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="user_location_city" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="orig_destination_distance" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="user_id" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="is_mobile" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="is_package" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="channel" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="srch_adults_cnt" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="srch_children_cnt" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="srch_rm_cnt" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="srch_destination_type_id" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="is_booking" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="cnt" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="hotel_market" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="hotel_cluster" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="StayDate" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="CheckinMonth" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;0&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;1&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;2&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;3&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;4&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;5&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;6&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;7&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;8&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;9&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;10&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;11&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;12&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;13&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;14&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;15&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;16&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;17&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;18&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;19&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;20&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;21&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;22&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;23&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;24&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;25&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;26&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;27&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;28&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;29&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;30&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;31&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;32&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;33&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;34&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;35&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;36&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;37&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;38&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;39&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;40&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;41&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;42&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;43&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;44&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;45&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;46&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;47&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;48&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;49&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;50&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;51&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;52&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;53&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;54&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;55&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;56&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;57&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;58&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;59&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;60&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;61&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;62&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;63&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;64&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;65&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;66&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;67&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;68&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;69&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;70&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;71&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;72&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;73&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;74&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;75&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;76&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;77&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;78&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;79&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;80&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;81&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;82&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;83&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;84&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;85&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;86&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;87&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;88&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;89&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;90&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;91&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;92&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;93&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;94&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;95&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;96&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;97&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;98&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;99&quot;" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Labels" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Labels2" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Labels3" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Labels4" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+            <Field name="Scored Labels5" size="254" source="File: C:\Users\vanwu\Desktop\DJ Score.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="site_name" selected="True" />
+            <SelectField field="user_location_city" selected="True" />
+            <SelectField field="is_mobile" selected="True" />
+            <SelectField field="is_package" selected="True" />
+            <SelectField field="channel" selected="True" />
+            <SelectField field="srch_adults_cnt" selected="True" />
+            <SelectField field="srch_children_cnt" selected="True" />
+            <SelectField field="srch_rm_cnt" selected="True" />
+            <SelectField field="srch_destination_type_id" selected="True" />
+            <SelectField field="is_booking" selected="True" />
+            <SelectField field="cnt" selected="True" />
+            <SelectField field="hotel_market" selected="True" />
+            <SelectField field="hotel_cluster" selected="True" />
+            <SelectField field="StayDate" selected="True" />
+            <SelectField field="CheckinMonth" selected="True" />
+            <SelectField field="Scored Labels" selected="True" />
+            <SelectField field="Scored Labels2" selected="True" />
+            <SelectField field="Scored Labels3" selected="True" />
+            <SelectField field="Scored Labels4" selected="True" />
+            <SelectField field="Scored Labels5" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="330" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Accuracy" type="Int16" size="2" expression="IF ([hotel_cluster]=[Scored Labels]) OR ([hotel_cluster]=[Scored Labels2]) OR ([hotel_cluster]=[Scored Labels3]) OR ([hotel_cluster]=[Scored Labels4]) OR ([hotel_cluster]=[Scored Labels5])  THEN 1 &#xA;ELSE 0 ENDIF" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>Accuracy=IF ([hotel_cluster]=[Scored Labels]) OR ([hotel_clus...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="450" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Accuracy" action="Sum" rename="Sum_Accuracy" />
+            <SummarizeField field="Accuracy" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="570" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="R J Accuracy Rate" type="Double" size="8" expression="[Sum_Accuracy]/[Count]" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>R J Accuracy Rate=[Sum_Accuracy]/[Count]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\vanwu\Desktop\RT Score.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RT Score.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="site_name" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="user_location_city" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="orig_destination_distance" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="user_id" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="is_mobile" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="is_package" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="channel" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="srch_adults_cnt" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="srch_children_cnt" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="srch_rm_cnt" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="srch_destination_type_id" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="is_booking" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="cnt" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="hotel_market" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="hotel_cluster" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="StayDate" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="CheckinMonth" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;0&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;1&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;2&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;3&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;4&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;5&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;6&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;7&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;8&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;9&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;10&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;11&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;12&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;13&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;14&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;15&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;16&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;17&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;18&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;19&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;20&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;21&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;22&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;23&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;24&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;25&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;26&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;27&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;28&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;29&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;30&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;31&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;32&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;33&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;34&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;35&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;36&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;37&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;38&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;39&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;40&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;41&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;42&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;43&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;44&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;45&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;46&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;47&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;48&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;49&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;50&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;51&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;52&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;53&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;54&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;55&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;56&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;57&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;58&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;59&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;60&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;61&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;62&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;63&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;64&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;65&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;66&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;67&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;68&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;69&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;70&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;71&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;72&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;73&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;74&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;75&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;76&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;77&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;78&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;79&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;80&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;81&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;82&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;83&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;84&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;85&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;86&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;87&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;88&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;89&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;90&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;91&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;92&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;93&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;94&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;95&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;96&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;97&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;98&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;99&quot;" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Labels" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Labels2" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Labels3" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Labels4" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+            <Field name="Scored Labels5" size="254" source="File: C:\Users\vanwu\Desktop\RT Score.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="site_name" selected="True" />
+            <SelectField field="user_location_city" selected="True" />
+            <SelectField field="is_mobile" selected="True" />
+            <SelectField field="is_package" selected="True" />
+            <SelectField field="channel" selected="True" />
+            <SelectField field="srch_adults_cnt" selected="True" />
+            <SelectField field="srch_children_cnt" selected="True" />
+            <SelectField field="srch_rm_cnt" selected="True" />
+            <SelectField field="srch_destination_type_id" selected="True" />
+            <SelectField field="is_booking" selected="True" />
+            <SelectField field="cnt" selected="True" />
+            <SelectField field="hotel_market" selected="True" />
+            <SelectField field="hotel_cluster" selected="True" />
+            <SelectField field="StayDate" selected="True" />
+            <SelectField field="CheckinMonth" selected="True" />
+            <SelectField field="Scored Labels" selected="True" />
+            <SelectField field="Scored Labels2" selected="True" />
+            <SelectField field="Scored Labels3" selected="True" />
+            <SelectField field="Scored Labels4" selected="True" />
+            <SelectField field="Scored Labels5" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="330" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Accuracy" type="Int16" size="2" expression="IF ([hotel_cluster]=[Scored Labels]) OR ([hotel_cluster]=[Scored Labels2]) OR ([hotel_cluster]=[Scored Labels3]) OR ([hotel_cluster]=[Scored Labels4]) OR ([hotel_cluster]=[Scored Labels5])  THEN 1 &#xA;ELSE 0 ENDIF" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>Accuracy=IF ([hotel_cluster]=[Scored Labels]) OR ([hotel_clus...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="450" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Accuracy" action="Sum" rename="Sum_Accuracy" />
+            <SummarizeField field="Accuracy" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="570" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="R T Accuracy Rate" type="Double" size="8" expression="[Sum_Accuracy]/[Count]" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>R T Accuracy Rate=[Sum_Accuracy]/[Count]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="750" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="894" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_12748_2b5dad26fe9a4dc88902fb74aec5360d_\Engine_18328_32c18183a68d401aadb413fa7cfe461a_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\vanwu\Desktop\LR Score.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>LR Score.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="site_name" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="user_location_city" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="orig_destination_distance" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="user_id" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="is_mobile" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="is_package" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="channel" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="srch_adults_cnt" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="srch_children_cnt" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="srch_rm_cnt" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="srch_destination_type_id" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="is_booking" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="cnt" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="hotel_market" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="hotel_cluster" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="StayDate" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="CheckinMonth" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;0&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;1&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;2&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;3&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;4&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;5&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;6&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;7&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;8&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;9&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;10&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;11&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;12&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;13&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;14&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;15&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;16&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;17&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;18&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;19&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;20&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;21&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;22&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;23&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;24&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;25&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;26&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;27&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;28&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;29&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;30&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;31&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;32&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;33&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;34&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;35&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;36&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;37&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;38&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;39&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;40&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;41&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;42&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;43&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;44&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;45&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;46&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;47&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;48&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;49&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;50&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;51&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;52&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;53&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;54&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;55&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;56&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;57&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;58&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;59&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;60&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;61&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;62&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;63&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;64&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;65&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;66&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;67&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;68&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;69&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;70&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;71&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;72&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;73&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;74&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;75&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;76&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;77&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;78&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;79&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;80&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;81&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;82&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;83&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;84&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;85&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;86&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;87&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;88&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;89&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;90&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;91&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;92&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;93&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;94&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;95&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;96&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;97&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;98&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;99&quot;" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Labels" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Labels2" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Labels3" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Labels4" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+            <Field name="Scored Labels5" size="254" source="File: C:\Users\vanwu\Desktop\LR Score.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="site_name" selected="True" />
+            <SelectField field="user_location_city" selected="True" />
+            <SelectField field="is_mobile" selected="True" />
+            <SelectField field="is_package" selected="True" />
+            <SelectField field="channel" selected="True" />
+            <SelectField field="srch_adults_cnt" selected="True" />
+            <SelectField field="srch_children_cnt" selected="True" />
+            <SelectField field="srch_rm_cnt" selected="True" />
+            <SelectField field="srch_destination_type_id" selected="True" />
+            <SelectField field="is_booking" selected="True" />
+            <SelectField field="cnt" selected="True" />
+            <SelectField field="hotel_market" selected="True" />
+            <SelectField field="hotel_cluster" selected="True" />
+            <SelectField field="StayDate" selected="True" />
+            <SelectField field="CheckinMonth" selected="True" />
+            <SelectField field="Scored Labels" selected="True" />
+            <SelectField field="Scored Labels2" selected="True" />
+            <SelectField field="Scored Labels3" selected="True" />
+            <SelectField field="Scored Labels4" selected="True" />
+            <SelectField field="Scored Labels5" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Accuracy" type="Int16" size="2" expression="IF ([hotel_cluster]=[Scored Labels]) OR ([hotel_cluster]=[Scored Labels2]) OR ([hotel_cluster]=[Scored Labels3]) OR ([hotel_cluster]=[Scored Labels4]) OR ([hotel_cluster]=[Scored Labels5])  THEN 1 &#xA;ELSE 0 ENDIF" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>Accuracy=IF ([hotel_cluster]=[Scored Labels]) OR ([hotel_clus...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="462" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Accuracy" action="Sum" rename="Sum_Accuracy" />
+            <SummarizeField field="Accuracy" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="582" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="L R Accuracy Rate" type="Double" size="8" expression="[Sum_Accuracy]/[Count]" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>L R Accuracy Rate=[Sum_Accuracy]/[Count]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="site_name" selected="True" />
+            <SelectField field="user_location_city" selected="True" />
+            <SelectField field="is_mobile" selected="True" />
+            <SelectField field="is_package" selected="True" />
+            <SelectField field="channel" selected="True" />
+            <SelectField field="srch_adults_cnt" selected="True" />
+            <SelectField field="srch_children_cnt" selected="True" />
+            <SelectField field="srch_rm_cnt" selected="True" />
+            <SelectField field="srch_destination_type_id" selected="True" />
+            <SelectField field="is_booking" selected="True" />
+            <SelectField field="cnt" selected="True" />
+            <SelectField field="hotel_market" selected="True" />
+            <SelectField field="hotel_cluster" selected="True" />
+            <SelectField field="StayDate" selected="True" />
+            <SelectField field="CheckinMonth" selected="True" />
+            <SelectField field="Scored Labels" selected="True" />
+            <SelectField field="Scored Labels2" selected="True" />
+            <SelectField field="Scored Labels3" selected="True" />
+            <SelectField field="Scored Labels4" selected="True" />
+            <SelectField field="Scored Labels5" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="330" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Accuracy" type="Int16" size="2" expression="IF ([hotel_cluster]=[Scored Labels]) OR ([hotel_cluster]=[Scored Labels2]) OR ([hotel_cluster]=[Scored Labels3]) OR ([hotel_cluster]=[Scored Labels4]) OR ([hotel_cluster]=[Scored Labels5])  THEN 1 &#xA;ELSE 0 ENDIF" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>Accuracy=IF ([hotel_cluster]=[Scored Labels]) OR ([hotel_clus...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="450" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Accuracy" action="Sum" rename="Sum_Accuracy" />
+            <SummarizeField field="Accuracy" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="570" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Boost Accuracy Rate" type="Double" size="8" expression="[Sum_Accuracy]/[Count]" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Boost Accuracy Rate=[Sum_Accuracy]/[Count]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\vanwu\Desktop\Boost One for Multi Score.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Boost One for Multi Score.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="site_name" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="posa_continent" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="user_location_city" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="orig_destination_distance" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="user_id" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="is_mobile" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="is_package" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="channel" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="srch_adults_cnt" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="srch_children_cnt" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="srch_rm_cnt" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="srch_destination_id" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="is_booking" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="cnt" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="hotel_market" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="hotel_cluster" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="StayDate" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="CheckinMonth" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;0&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;1&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;2&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;3&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;4&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;5&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;6&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;7&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;8&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;9&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;10&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;11&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;12&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;13&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;14&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;15&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;16&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;17&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;18&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;19&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;20&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;21&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;22&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;23&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;24&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;25&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;26&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;27&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;28&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;29&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;30&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;31&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;32&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;33&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;34&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;35&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;36&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;37&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;38&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;39&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;40&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;41&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;42&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;43&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;44&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;45&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;46&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;47&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;48&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;49&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;50&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;51&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;52&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;53&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;54&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;55&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;56&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;57&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;58&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;59&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;60&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;61&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;62&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;63&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;64&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;65&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;66&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;67&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;68&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;69&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;70&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;71&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;72&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;73&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;74&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;75&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;76&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;77&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;78&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;79&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;80&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;81&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;82&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;83&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;84&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;85&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;86&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;87&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;88&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;89&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;90&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;91&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;92&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;93&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;94&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;95&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;96&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;97&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;98&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;99&quot;" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Labels" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Labels2" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Labels3" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Labels4" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+            <Field name="Scored Labels5" size="254" source="File: C:\Users\vanwu\Desktop\Boost One for Multi Score.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="site_name" selected="True" />
+            <SelectField field="user_location_city" selected="True" />
+            <SelectField field="is_mobile" selected="True" />
+            <SelectField field="is_package" selected="True" />
+            <SelectField field="channel" selected="True" />
+            <SelectField field="srch_adults_cnt" selected="True" />
+            <SelectField field="srch_children_cnt" selected="True" />
+            <SelectField field="srch_rm_cnt" selected="True" />
+            <SelectField field="srch_destination_type_id" selected="True" />
+            <SelectField field="is_booking" selected="True" />
+            <SelectField field="cnt" selected="True" />
+            <SelectField field="hotel_market" selected="True" />
+            <SelectField field="hotel_cluster" selected="True" />
+            <SelectField field="StayDate" selected="True" />
+            <SelectField field="CheckinMonth" selected="True" />
+            <SelectField field="Scored Labels" selected="True" />
+            <SelectField field="Scored Labels2" selected="True" />
+            <SelectField field="Scored Labels3" selected="True" />
+            <SelectField field="Scored Labels4" selected="True" />
+            <SelectField field="Scored Labels5" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="330" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Accuracy" type="Int16" size="2" expression="IF ([hotel_cluster]=[Scored Labels]) OR ([hotel_cluster]=[Scored Labels2]) OR ([hotel_cluster]=[Scored Labels3]) OR ([hotel_cluster]=[Scored Labels4]) OR ([hotel_cluster]=[Scored Labels5])  THEN 1 &#xA;ELSE 0 ENDIF" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>Accuracy=IF ([hotel_cluster]=[Scored Labels]) OR ([hotel_clus...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="450" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Accuracy" action="Sum" rename="Sum_Accuracy" />
+            <SummarizeField field="Accuracy" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="570" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="NN Accuracy Rate" type="Double" size="8" expression="[Sum_Accuracy]/[Count]" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>NN Accuracy Rate=[Sum_Accuracy]/[Count]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\vanwu\Desktop\NN Score.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>NN Score.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="site_name" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="posa_continent" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="user_location_city" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="orig_destination_distance" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="user_id" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="is_mobile" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="is_package" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="channel" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="srch_adults_cnt" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="srch_children_cnt" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="srch_rm_cnt" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="srch_destination_id" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="is_booking" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="cnt" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="hotel_market" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="hotel_cluster" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="StayDate" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="CheckinMonth" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;0&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;1&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;2&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;3&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;4&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;5&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;6&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;7&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;8&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;9&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;10&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;11&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;12&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;13&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;14&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;15&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;16&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;17&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;18&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;19&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;20&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;21&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;22&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;23&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;24&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;25&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;26&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;27&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;28&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;29&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;30&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;31&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;32&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;33&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;34&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;35&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;36&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;37&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;38&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;39&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;40&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;41&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;42&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;43&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;44&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;45&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;46&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;47&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;48&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;49&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;50&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;51&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;52&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;53&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;54&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;55&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;56&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;57&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;58&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;59&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;60&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;61&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;62&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;63&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;64&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;65&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;66&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;67&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;68&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;69&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;70&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;71&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;72&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;73&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;74&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;75&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;76&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;77&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;78&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;79&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;80&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;81&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;82&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;83&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;84&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;85&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;86&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;87&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;88&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;89&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;90&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;91&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;92&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;93&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;94&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;95&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;96&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;97&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;98&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Probabilities for Class &quot;99&quot;" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Labels" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Labels2" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Labels3" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Labels4" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+            <Field name="Scored Labels5" size="254" source="File: C:\Users\vanwu\Desktop\NN Score.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Model evaluation</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

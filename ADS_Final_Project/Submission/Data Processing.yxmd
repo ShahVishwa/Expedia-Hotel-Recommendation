@@ -1,0 +1,1516 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.0">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="282" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>test.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="date_time" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="site_name" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="posa_continent" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="user_location_country" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="user_location_region" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="user_location_city" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="orig_destination_distance" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="user_id" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="is_mobile" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="is_package" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="channel" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="srch_ci" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="srch_co" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="srch_adults_cnt" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="srch_children_cnt" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="srch_rm_cnt" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="srch_destination_id" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="srch_destination_type_id" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="hotel_continent" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="hotel_country" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+            <Field name="hotel_market" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\test.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="486" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>destinations.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="srch_destination_id" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d1" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d2" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d3" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d4" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d5" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d6" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d7" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d8" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d9" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d10" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d11" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d12" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d13" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d14" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d15" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d16" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d17" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d18" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d19" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d20" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d21" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d22" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d23" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d24" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d25" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d26" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d27" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d28" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d29" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d30" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d31" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d32" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d33" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d34" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d35" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d36" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d37" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d38" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d39" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d40" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d41" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d42" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d43" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d44" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d45" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d46" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d47" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d48" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d49" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d50" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d51" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d52" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d53" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d54" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d55" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d56" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d57" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d58" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d59" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d60" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d61" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d62" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d63" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d64" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d65" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d66" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d67" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d68" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d69" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d70" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d71" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d72" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d73" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d74" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d75" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d76" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d77" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d78" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d79" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d80" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d81" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d82" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d83" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d84" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d85" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d86" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d87" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d88" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d89" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d90" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d91" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d92" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d93" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d94" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d95" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d96" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d97" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d98" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d99" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d100" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d101" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d102" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d103" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d104" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d105" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d106" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d107" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d108" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d109" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d110" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d111" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d112" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d113" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d114" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d115" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d116" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d117" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d118" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d119" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d120" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d121" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d122" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d123" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d124" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d125" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d126" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d127" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d128" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d129" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d130" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d131" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d132" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d133" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d134" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d135" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d136" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d137" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d138" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d139" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d140" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d141" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d142" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d143" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d144" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d145" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d146" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d147" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d148" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+            <Field name="d149" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\destinations.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>train.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date_time" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="site_name" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="posa_continent" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="user_location_country" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="user_location_region" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="user_location_city" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="orig_destination_distance" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="user_id" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="is_mobile" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="is_package" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="channel" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="srch_ci" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="srch_co" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="srch_adults_cnt" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="srch_children_cnt" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="srch_rm_cnt" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="srch_destination_id" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="srch_destination_type_id" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="is_booking" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="cnt" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="hotel_continent" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="hotel_country" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="hotel_market" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+            <Field name="hotel_cluster" size="254" source="File: C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\train.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="378" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="user_location_country" selected="True" />
+            <SelectField field="user_location_region" selected="True" />
+            <SelectField field="user_location_city" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>DimLocation</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="378" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="site_name" selected="True" />
+            <SelectField field="posa_continent" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>DimSite</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="378" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="srch_destination_id" selected="True" />
+            <SelectField field="srch_destination_type_id" selected="True" />
+            <SelectField field="hotel_continent" selected="True" />
+            <SelectField field="hotel_country" selected="True" />
+            <SelectField field="hotel_market" selected="True" />
+            <SelectField field="hotel_cluster" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>DimHotel</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="522" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="user_location_country" />
+            <Field field="user_location_region" />
+            <Field field="user_location_city" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="1">
+          <Name />
+          <AnnotationText />
+          <DefaultAnnotationText>Unique: user_location_country, user_location_region, user_location_city</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="522" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="site_name" />
+            <Field field="posa_continent" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText />
+          <DefaultAnnotationText>Unique: site_name, posa_continent</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="522" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="srch_destination_id" />
+            <Field field="srch_destination_type_id" />
+            <Field field="hotel_continent" />
+            <Field field="hotel_country" />
+            <Field field="hotel_market" />
+            <Field field="hotel_cluster" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText />
+          <DefaultAnnotationText>Unique: srch_destination_id, srch_destination_type_id, hotel_continent, hotel_country, hotel_market, hotel_cluster</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_078e77168ad94f548297671492198cae_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_086535822ba844e49f0144f40a483be8_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_815acc7ebace4fba866771f13b23fc8f_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_dda4368922e848978b4e02c628737fc2_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_d58b72141c244afb8ab3715e887c752b_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_e29fbd16f2ba4d92ab15b33b7fe5f6ad_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="630" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="srch_destination_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="srch_destination_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Left_srch_destination_id" selected="True" />
+                <SelectField field="Left_srch_destination_type_id" selected="True" />
+                <SelectField field="Left_hotel_continent" selected="True" />
+                <SelectField field="Left_hotel_country" selected="True" />
+                <SelectField field="Left_hotel_market" selected="True" />
+                <SelectField field="Left_hotel_cluster" selected="True" />
+                <SelectField field="Right_srch_destination_id" selected="False" rename="Right_srch_destination_id" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="402" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="srch_destination_id" selected="True" />
+            <SelectField field="srch_destination_type_id" selected="True" />
+            <SelectField field="hotel_continent" selected="True" />
+            <SelectField field="hotel_country" selected="True" />
+            <SelectField field="hotel_market" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>TestDimHotel</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="522" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="srch_destination_id" />
+            <Field field="srch_destination_type_id" />
+            <Field field="hotel_continent" />
+            <Field field="hotel_country" />
+            <Field field="hotel_market" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText />
+          <DefaultAnnotationText>Unique: srch_destination_id, srch_destination_type_id, hotel_continent, hotel_country, hotel_market</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="630" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="srch_destination_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="srch_destination_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Left_srch_destination_id" selected="True" />
+                <SelectField field="Left_srch_destination_type_id" selected="True" />
+                <SelectField field="Left_hotel_continent" selected="True" />
+                <SelectField field="Left_hotel_country" selected="True" />
+                <SelectField field="Left_hotel_market" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_4303c0196e1f46cbaddaa6ed43090f81_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_8ec3ea4f8cc24bfd819bbd4d43ae7886_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_da3c07d9cb244d36bab493d79dacd6b8_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_53622431b52741558315542afcaf4764_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="762" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="user_location_city" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: user_location_city</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="762" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="site_name" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: site_name</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="774" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="srch_destination_id" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: srch_destination_id</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="906" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_b7bfab99e4e24917ba9ac0c235199cf7_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="906" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_4e885c91ecc5432f983495df67e5740e_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="882" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_5082c124a7e7472c86cc4ed6e5b654c3_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="882" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_43131c5079f247cca1eacaa16ece1ab9_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="954" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_4c8220b6f01d445486a0f74b33d0cd52_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="942" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_dbd91457e574472aa2a6c18410121972_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="882" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="srch_destination_id" />
+            <Field field="srch_destination_type_id" />
+            <Field field="hotel_continent" />
+            <Field field="hotel_country" />
+            <Field field="hotel_market" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="srch_destination_id" />
+            <Field field="srch_destination_type_id" />
+            <Field field="hotel_continent" />
+            <Field field="hotel_country" />
+            <Field field="hotel_market" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Left_srch_destination_id" selected="True" />
+                <SelectField field="Right_srch_destination_id" selected="False" rename="Right_srch_destination_id" />
+                <SelectField field="Right_srch_destination_type_id" selected="False" rename="Right_srch_destination_type_id" />
+                <SelectField field="Right_hotel_continent" selected="False" rename="Right_hotel_continent" />
+                <SelectField field="Right_hotel_country" selected="False" rename="Right_hotel_country" />
+                <SelectField field="Right_hotel_market" selected="False" rename="Right_hotel_market" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="978" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_4dc65c593c0c4a77b097f609de2647d9_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="966" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_4d95707fb799433c84b599786862d990_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="978" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\vanwu\AppData\Local\Temp\Engine_16496_680e4e773850412b83725b551c2f7a9d_\Engine_5892_d61f770e59fe409dbeb318ac96f808ae_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="date_time" selected="True" />
+            <SelectField field="site_name" selected="True" />
+            <SelectField field="user_location_city" selected="True" />
+            <SelectField field="orig_destination_distance" selected="True" />
+            <SelectField field="user_id" selected="True" />
+            <SelectField field="is_mobile" selected="True" />
+            <SelectField field="is_package" selected="True" />
+            <SelectField field="channel" selected="True" />
+            <SelectField field="srch_ci" selected="True" />
+            <SelectField field="srch_co" selected="True" />
+            <SelectField field="srch_adults_cnt" selected="True" />
+            <SelectField field="srch_children_cnt" selected="True" />
+            <SelectField field="srch_rm_cnt" selected="True" />
+            <SelectField field="srch_destination_id" selected="True" />
+            <SelectField field="is_booking" selected="True" />
+            <SelectField field="cnt" selected="True" />
+            <SelectField field="hotel_cluster" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="990" y="-6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\Data Prep Output\DimLocation.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DimLocation.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1002" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\Data Prep Output\DimSite.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DimSite.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1098" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\Data Prep Output\DimHotelWithClusterNumber.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DimHotelWithClusterNumber.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1122" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1026" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="srch_destination_id" selected="True" />
+            <SelectField field="srch_destination_type_id" selected="True" />
+            <SelectField field="hotel_continent" selected="True" />
+            <SelectField field="hotel_country" selected="True" />
+            <SelectField field="hotel_market" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1266" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\Data Prep Output\DimHotelWithNoCluster.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DimHotelWithNoCluster.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="438" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\vanwu\Desktop\INFO 7390 ADS\Expedia data set\Data Prep Output\FactTraining.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FactTraining.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="17" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Unique" />
+      <Destination ToolID="17" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="20" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Unique" />
+      <Destination ToolID="20" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Unique" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Duplicates" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Unique" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Unique" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Unique" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Duplicates" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Unique" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Unique" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Duplicates" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Unique" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Unique" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Left" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Join" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Left" />
+      <Destination ToolID="34" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Left" />
+      <Destination ToolID="34" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Left" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Join" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Unique" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Duplicates" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Unique" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Duplicates" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Unique" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Unique" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Duplicates" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Unique" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Right" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Left" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Join" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="34" Connection="Right" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="True" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Data Processing</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
